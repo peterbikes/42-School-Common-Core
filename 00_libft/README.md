@@ -11,4 +11,4 @@ In this project, students were challenged to recreate a set of functions that al
 
 Grade: 125 / 100
 
-![](/extra/grade.jpg)
+![grade](/extra/grade.jpg)
