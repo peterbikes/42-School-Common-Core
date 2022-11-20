@@ -15,7 +15,7 @@ Grade: 125 / 100
 
 ## Functions contained in my libft.h
 
-|  |  |  |  |
+|<!-- -->|<!-- -->|<!-- -->|<!-- -->|
 |:---:|:---:|:---:|:---:|
 | ft_isalpha | ft_strlcat | ft_strdup | ft_putnbr_fd |
 | ft_isdigit | ft_toupper | ft_substr | ft_lstnew |
