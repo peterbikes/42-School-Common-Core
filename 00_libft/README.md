@@ -11,4 +11,4 @@ In this project, students were challenged to recreate a set of functions that al
 
 Grade: 125 / 100
 
-![grade] (https://github.com/peterbikes/42-School-Common-Core/blob/main/00_libft/extra/grade.jpg)
+![](/extra/grade.jpg)
