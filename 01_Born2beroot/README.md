@@ -12,9 +12,9 @@ your own operating system while implementing strict rules.
 
 Grade: 125 / 100
 
-![grade](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/grade.jpg)
+![grade](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/grade.jpg)
 
-Please see [subject](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/subject.pdf) for more details on this project.
+Please see [subject](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/subject.pdf) for more details on this project.
 
 **Disclaimer:** This is a list of very *loose* concepts that I studied while investigating for this project. Not organized in any way, and it might only be useful if you are a complete beginner. Please refer to INDEX to see all contents. There is also a Bibliography at the end with all (mostly) the places where I got this info.
 
@@ -50,7 +50,7 @@ There are Type 1 and 2 Hypervisors: A type 2 HV uses an OS, and then a software 
 
 **Kernel:** The kernel is a computer program at the core of a computer's operating system and generally has complete control over everything in the system. It is the portion of the operating system code that is always resident in memory and facilitates interactions between hardware and software components. A full kernel controls all hardware resources (e.g. I/O, memory, cryptography) via device drivers, arbitrates conflicts between processes concerning such resources, and optimizes the utilization of common resources e.g. CPU & cache usage, file systems, and network sockets. On most systems, the kernel is one of the first programs loaded on startup (after the bootloader). It handles the rest of startup as well as memory, peripherals, and input/output (I/O) requests from software, translating them into data-processing instructions for the central processing unit. The kernel functions since the computer is turned on, until it is turned off, and it might be considered the most important part of the OS.
 
-![kernel](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/kernel.png)
+![kernel](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/kernel.png)
 
 **Linux kernel:** The Linux kernel is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel. It was originally authored in 1991 by Linus Torvalds for his i386-based PC, and it was soon adopted as the kernel for the GNU operating system, which was written to be a free (libre) replacement for Unix.
 A common missconception is that Linux is an OS, but it is only a kernel. GNU, an OS, was often combined with LINUX, as it was also free. This popular combination (LINUX + GNU) was often called just 'Linux', which caused the idea that Linux is an OS.
@@ -58,7 +58,7 @@ A common missconception is that Linux is an OS, but it is only a kernel. GNU, an
 **UNIX:** Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, whose development started in 1969 at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
 The most popular version of UNIX used today is MacOS.
 
-![unix](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/unix.png)
+![unix](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/unix.png)
 
 **GUI:** The GUI, graphical user interface, is a form of user interface that allows users to interact with electronic devices through graphical icons and audio indicator such as primary notation, instead of text-based UIs, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of CLIs (command-line interfaces), which require commands to be typed on a computer keyboard.
 
@@ -66,24 +66,24 @@ The most popular version of UNIX used today is MacOS.
 
 A typical Linux distribution comprises a Linux kernel, GNU tools and libraries, additional software, documentation, a window system (the most common being the X Window System, or, more recently, Wayland), a window manager, and a desktop environment.
 
-![distros](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/distros.png)
+![distros](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/distros.png)
 
 There are four main branches when it comes to Linux distros:
 
-![debian](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/debian.png)
+![debian](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/debian.png)
 
 **The Debian Branch**
     - Easiest to start if you are a complete beginer;
     - Most of Debian distros are based on UBUNTO, the most popular, most of commands and operations are the same as in UBUNTO, you just have like different "skins", like Kubunto or LinuxMint;
     - Most of them use apt as a package manager. If you see an apt command, you are most likely in a Debian based distro.
 
-![suse](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/suse.png)
+![suse](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/suse.png)
 
 **The Suse Branch**
     - One of the first distros of Linux;
     - The SUSE Linux Enterprise Server (SLES) is designed for use in mainframes, servers, and workstations.
 
-![redhat](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/redhat.png)
+![redhat](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/redhat.png)
 
 **The RedHat Branch**
     - Fedora, the distro used by Linus Torvalds, is part of this branch.
@@ -99,7 +99,7 @@ Think of Linux distros like cars: there are trucks, smart cars, f1's. They are b
 
 **LSBLK:** *(list block devices)* Lsblk is used to display details about block devices and these block devices (except ram disk) are basically those files that represent devices connected to the pc. It queries /sys virtual file system and udev db to obtain information that it displays. And it basically displays output in a tree-like structure. This command comes pre-installed with the util-Linux package.
 
-![lsblk](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/lsblk)
+![lsblk](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/lsblk.png)
 
 It provides the following information:
 
@@ -168,7 +168,7 @@ In short, Aptitude has more features and hence can be termed as a better package
 
 **Difference Between Static and Dynamic Memory Allocation:** Dynamic memory allocation refers to memory allocation that occurs during the execution or runtime of a program. Static memory refers to memory allocation that occurs during the compilation process.
 
-![memory_allocation](https://github.com/peterbikes/42-School-Common-Core/tree/main/01_Born2beRoot/extra/memory_allocation.png)
+![memory_allocation](https://github.com/peterbikes/42-School-Common-Core/blob/main/01_Born2beroot/extra/memory_allocation.png)
 
 ## List of useful commands
 
