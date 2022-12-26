@@ -253,7 +253,7 @@ In short, Aptitude has more features and hence can be termed as a better package
 
 
 
->What did you choose as an OS?
+> **What did you choose as an OS?**
 
         Debian.
 
